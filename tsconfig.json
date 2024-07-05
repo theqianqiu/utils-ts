@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "moduleResolution": "node",
+      "target": "es6",
+      "module": "esnext",
+      "skipLibCheck": true,
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "declaration": true,
+      "allowSyntheticDefaultImports":true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "lib"]
+  }
